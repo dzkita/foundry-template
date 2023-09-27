@@ -1,4 +1,4 @@
-# Foundry Template [![Open in Gitpod][gitpod-badge]][gitpod] [![Github Actions][gha-badge]][gha] [![Foundry][foundry-badge]][foundry] [![License: MIT][license-badge]][license]
+# Foundry Template [![Open in Gitpod][gitpod-badge]][gitpod]  [![Foundry][foundry-badge]][foundry] [![License: MIT][license-badge]][license]
 
 [gitpod]: https://gitpod.io/#https://github.com/dzkita/Foundry-Template
 [gitpod-badge]: https://img.shields.io/badge/Gitpod-Open%20in%20Gitpod-FFB45B?logo=gitpod
@@ -16,12 +16,15 @@ A Foundry-based template for developing Solidity smart contracts, with sensible 
 - [Forge](https://github.com/foundry-rs/foundry/blob/master/forge): compile, test, fuzz, format, and deploy smart
   contracts
 - [Forge Std](https://github.com/foundry-rs/forge-std): collection of helpful contracts and cheatcodes for testing
+- ### Custom suite of tests (by PaulBerg)
 - [PRBTest](https://github.com/PaulRBerg/prb-test): modern collection of testing assertions and logging utilities
+- ### NodeTools
 - [Prettier](https://github.com/prettier/prettier): code formatter for non-Solidity files
 - [Solhint Community](https://github.com/solhint-community/solhint-community): linter for Solidity code
+- ### Make dependencias
 - [Solady Contracts](https://github.com/Vectorized/solady) : A library of higly optimized & opinnioned contratcs (Make)
-- [Chainlink contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts) :Libreria de contratos de chainlink (Make)
-- 
+- [Chainlink contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts) : Libreria de contratos de chainlink (Make)
+
 
 ## Getting Started
 
@@ -35,6 +38,7 @@ $ mkdir my-project
 $ cd my-project
 $ forge init --template PaulRBerg/foundry-template
 $ pnpm install # install Solhint, Prettier, and other Node.js deps
+$ make install-all # opcional, instala las dependencias marcadas arriba con `(Make)` al final
 ```
 
 If this is your first time with Foundry, check out the
