@@ -19,6 +19,9 @@ A Foundry-based template for developing Solidity smart contracts, with sensible 
 - [PRBTest](https://github.com/PaulRBerg/prb-test): modern collection of testing assertions and logging utilities
 - [Prettier](https://github.com/prettier/prettier): code formatter for non-Solidity files
 - [Solhint Community](https://github.com/solhint-community/solhint-community): linter for Solidity code
+- [Solady Contracts](https://github.com/Vectorized/solady) : A library of higly optimized & opinnioned contratcs (Soon)
+- [Chainlink contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts) :Libreria de contratos de chainlink (Soon)
+- 
 
 ## Getting Started
 
